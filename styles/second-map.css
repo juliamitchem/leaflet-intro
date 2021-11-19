@@ -1,0 +1,64 @@
+html {
+    font-size: 100%;
+  }
+
+body {
+    font-family: 'Mulish', 'Arial', sans-serif;
+    background:#000;
+    color: #fff;
+    margin: auto;
+}
+
+article {
+  max-width: 1500px;
+  padding: 10px;
+}
+
+p {
+  text-align: center;
+  padding: .5rem;
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+    text-align: center;
+    padding: 1rem 0rem;
+    font-size: 3rem;
+    color: #fff;
+}
+
+#haunted_map {
+  height: 400px;
+  width: 100%;
+  margin-top: 3em;
+  border: 1px solid #999;
+}
+
+.text {
+  font-size: 1.10rem;
+  line-height: 2rem;
+}
+
+@media screen and (max-width: 730px) {
+
+ article {
+ max-width: 100%;
+ padding: 10px;
+}
+
+p {
+  width: 100%;
+  padding: 0;
+}
+
+.text {
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+h1{
+  padding: 0;
+}
+
+  }
