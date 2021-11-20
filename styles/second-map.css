@@ -39,6 +39,14 @@ h1 {
   line-height: 2rem;
 }
 
+a {
+    color: #D291BC;
+}
+a:hover {
+    color: #379CB2;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 730px) {
 
  article {
